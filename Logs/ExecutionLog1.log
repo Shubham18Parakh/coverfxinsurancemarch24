@@ -1,0 +1,34 @@
+2024-01-26 15:50:15,799 [main] INFO CoverFoxInsurance - launching coverfox
+2024-01-26 15:50:20,134 [main] INFO CoverFoxInsurance - Clicking On Male Button
+2024-01-26 15:50:21,471 [main] INFO CoverFoxInsurance - Clicking On Next Button
+2024-01-26 15:50:22,483 [main] INFO CoverFoxInsurance - Handling Age DropDown
+2024-01-26 15:50:33,705 [main] INFO CoverFoxInsurance - Clicking On Next Button
+2024-01-26 15:50:34,718 [main] INFO CoverFoxInsurance - Entering Pincode
+2024-01-26 15:50:36,048 [main] INFO CoverFoxInsurance - Entering Mobile Number
+2024-01-26 15:50:37,627 [main] INFO CoverFoxInsurance - Clicking On Continue Button
+2024-01-26 16:01:15,692 [main] INFO CoverFoxInsurance - launching coverfox
+2024-01-26 16:01:18,588 [main] INFO CoverFoxInsurance - Clicking On Male Button
+2024-01-26 16:01:20,382 [main] INFO CoverFoxInsurance - Clicking On Next Button
+2024-01-26 16:01:21,392 [main] INFO CoverFoxInsurance - Handling Age DropDown
+2024-01-26 16:01:29,806 [main] INFO CoverFoxInsurance - Clicking On Next Button
+2024-01-26 16:01:30,820 [main] INFO CoverFoxInsurance - Entering Pincode
+2024-01-26 16:01:32,313 [main] WARN CoverFoxInsurance - Entering Mobile Number
+2024-01-26 16:01:32,317 [main] INFO CoverFoxInsurance - Entering Mobile Number
+2024-01-26 16:01:34,183 [main] INFO CoverFoxInsurance - Clicking On Continue Button
+2024-01-26 16:01:35,351 [main] ERROR CoverFoxInsurance - Fatching Number Of Result From Text
+2024-01-26 16:01:45,902 [main] FATAL CoverFoxInsurance - Fatching Number Of Result From banners
+2024-01-26 16:01:47,975 [main] ERROR CoverFoxInsurance - Tc is passed
+2024-01-26 16:01:48,247 [main] INFO CoverFoxInsurance - Closing Browser
+2024-01-26 18:51:56,940 [main] INFO CoverFoxInsurance - launching coverfox
+2024-01-26 18:52:01,774 [main] INFO CoverFoxInsurance - Clicking On Male Button
+2024-01-26 18:52:04,036 [main] INFO CoverFoxInsurance - Clicking On Next Button
+2024-01-26 18:52:05,073 [main] INFO CoverFoxInsurance - Handling Age DropDown
+2024-01-26 18:52:17,172 [main] INFO CoverFoxInsurance - Clicking On Next Button
+2024-01-26 18:52:18,203 [main] INFO CoverFoxInsurance - Entering Pincode
+2024-01-26 18:52:19,626 [main] WARN CoverFoxInsurance - Entering Mobile Number
+2024-01-26 18:52:19,627 [main] INFO CoverFoxInsurance - Entering Mobile Number
+2024-01-26 18:52:21,179 [main] INFO CoverFoxInsurance - Clicking On Continue Button
+2024-01-26 18:52:22,314 [main] ERROR CoverFoxInsurance - Fatching Number Of Result From Text
+2024-01-26 18:52:33,489 [main] FATAL CoverFoxInsurance - Fatching Number Of Result From banners
+2024-01-26 18:52:35,607 [main] ERROR CoverFoxInsurance - Tc is passed
+2024-01-26 18:52:35,645 [main] INFO CoverFoxInsurance - Closing Browser

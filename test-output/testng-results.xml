@@ -29,15 +29,6 @@
       <![CDATA[Clicking On Continue Button]]>
     </line>
     <line>
-      <![CDATA[Fatching Number Of Result From Text]]>
-    </line>
-    <line>
-      <![CDATA[Fatching Number Of Result From banners]]>
-    </line>
-    <line>
-      <![CDATA[Tc is passed]]>
-    </line>
-    <line>
       <![CDATA[Taking screenshot Of Final Result]]>
     </line>
     <line>
@@ -47,12 +38,12 @@
       <![CDATA[Closing Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-18T12:51:57 IST" name="Default suite" finished-at="2024-01-18T12:53:05 IST" duration-ms="67745">
+  <suite started-at="2024-01-26T18:51:26 IST" name="Default suite" finished-at="2024-01-26T18:52:56 IST" duration-ms="90506">
     <groups>
     </groups>
-    <test started-at="2024-01-18T12:51:57 IST" name="Default test" finished-at="2024-01-18T12:53:05 IST" duration-ms="67745">
-      <class name="testNgTestClass.CF_001ValidateSearchResearchHealthPlanereadfrompropertiesfilePolicies2">
-        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:testNgTestClass.CF_001ValidateSearchResearchHealthPlanereadfrompropertiesfilePolicies2@3c46e67a]" started-at="2024-01-18T12:51:57 IST" name="launchingBrowser" finished-at="2024-01-18T12:52:21 IST" duration-ms="24012" status="PASS">
+    <test started-at="2024-01-26T18:51:26 IST" name="Default test" finished-at="2024-01-26T18:52:56 IST" duration-ms="90506">
+      <class name="testNgTestClass.CF_0001ValidateSearchResearchHealthPlanePolicieslog4j">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:testNgTestClass.CF_0001ValidateSearchResearchHealthPlanePolicieslog4j@3c46e67a]" started-at="2024-01-26T18:51:26 IST" name="launchingBrowser" finished-at="2024-01-26T18:51:58 IST" duration-ms="32527" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching Browser]]>
@@ -62,7 +53,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:testNgTestClass.CF_001ValidateSearchResearchHealthPlanereadfrompropertiesfilePolicies2@3c46e67a]" started-at="2024-01-18T12:52:21 IST" name="enterMemberDetails" finished-at="2024-01-18T12:52:35 IST" duration-ms="13777" status="PASS">
+        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:testNgTestClass.CF_0001ValidateSearchResearchHealthPlanePolicieslog4j@3c46e67a]" started-at="2024-01-26T18:51:58 IST" name="enterMemberDetails" finished-at="2024-01-26T18:52:22 IST" duration-ms="23502" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on Gender Button]]>
@@ -87,23 +78,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterMemberDetails -->
-        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:testNgTestClass.CF_001ValidateSearchResearchHealthPlanereadfrompropertiesfilePolicies2@3c46e67a]" started-at="2024-01-18T12:52:35 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-01-18T12:52:49 IST" duration-ms="13806" status="PASS">
+        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:testNgTestClass.CF_0001ValidateSearchResearchHealthPlanePolicieslog4j@3c46e67a]" started-at="2024-01-26T18:52:22 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-01-26T18:52:35 IST" duration-ms="13416" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Fatching Number Of Result From Text]]>
-            </line>
-            <line>
-              <![CDATA[Fatching Number Of Result From banners]]>
-            </line>
-            <line>
-              <![CDATA[Tc is passed]]>
-            </line>
             <line>
               <![CDATA[Taking screenshot Of Final Result]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateTestPlansFromTextAndBanners -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testNgTestClass.CF_001ValidateSearchResearchHealthPlanereadfrompropertiesfilePolicies2@3c46e67a]" started-at="2024-01-18T12:52:49 IST" name="closingBrowser" finished-at="2024-01-18T12:53:05 IST" duration-ms="16001" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testNgTestClass.CF_0001ValidateSearchResearchHealthPlanePolicieslog4j@3c46e67a]" started-at="2024-01-26T18:52:35 IST" name="closingBrowser" finished-at="2024-01-26T18:52:56 IST" duration-ms="20920" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing Browser]]>
@@ -113,7 +95,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-      </class> <!-- testNgTestClass.CF_001ValidateSearchResearchHealthPlanereadfrompropertiesfilePolicies2 -->
+      </class> <!-- testNgTestClass.CF_0001ValidateSearchResearchHealthPlanePolicieslog4j -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
