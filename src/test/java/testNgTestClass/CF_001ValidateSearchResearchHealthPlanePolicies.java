@@ -2,6 +2,7 @@ package testNgTestClass;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -45,8 +46,10 @@ public class CF_001ValidateSearchResearchHealthPlanePolicies extends BaseClass {
 		Reporter.log("Opening Browser", true);
 		driver.get("https://www.coverfox.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
-		
+		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		UtilityClass.implicitwait(driver, 5);
+
 	}
 	@BeforeMethod
 	public void enterMemberDetails() throws InterruptedException, EncryptedDocumentException, IOException

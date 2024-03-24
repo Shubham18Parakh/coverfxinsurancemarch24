@@ -2,6 +2,7 @@ package testNgTestClass;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -52,7 +53,9 @@ public class CF_0001ValidateSearchResearchHealthPlanePolicieslog4j extends BaseC
 		Reporter.log("Opening Browser", true);
 		driver.get("https://www.coverfox.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
+		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		UtilityClass.implicitwait(driver, 5);
 		
 	}
 	@BeforeMethod
@@ -87,7 +90,7 @@ public class CF_0001ValidateSearchResearchHealthPlanePolicieslog4j extends BaseC
 		adressDetailsPage.clickOnContinueButton();
 		logger.info("Clicking On Continue Button");
 		
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 	}
 
 	
@@ -121,7 +124,7 @@ public class CF_0001ValidateSearchResearchHealthPlanePolicieslog4j extends BaseC
 //		soft.assertAll();
 //	}
 //	
-	
+	//div[@class='hin-title']//div
 	@AfterClass
 	public void closingBrowser() throws InterruptedException
 	{

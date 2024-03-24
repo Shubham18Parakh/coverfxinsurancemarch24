@@ -3,6 +3,7 @@ package testNgTestClass;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
@@ -38,7 +39,9 @@ public class  CF_002Validate_Pincode_Error_Msg2propertyfile extends BaseClass
 		memeberDetailsPage=new CoverFoxMemeberDetailsPage(driver);
 		adressDetailsPage=new CoverFoxAdressDetailsPage(driver);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		UtilityClass.implicitwait(driver, 5);
 		
 	}
 	@BeforeMethod

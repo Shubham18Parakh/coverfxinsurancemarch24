@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.FileHandler;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -46,12 +47,14 @@ public class UtilityClass {
 		
 	JavascriptExecutor js = (JavascriptExecutor)driver;
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	js.executeScript("arguments[0].scrollIntoView();",element );
 	
 	}
 	public static void implicitwait (WebDriver driver , int time) 
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
+		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	
 		
 	}
